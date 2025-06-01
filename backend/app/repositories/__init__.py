@@ -1,0 +1,7 @@
+from app.repositories.interface.user_repository import UserRepository
+from app.repositories.interface.movie_repository import MovieRepository
+from app.repositories.interface.rating_repository import RatingRepository
+
+from app.repositories.implementation.sql_alchemy_user_repo import SQLAlchemyUserRepo
+from app.repositories.implementation.sql_alchemy_movie_repo import SQLAlchemyMovieRepo
+from app.repositories.implementation.sql_alchemy_rating_repo import SQLAlchemyRatingRepo

@@ -1,0 +1,12 @@
+/backend/.env
+/frontend/.env
+/backend/data
+/backend/__pycache__/
+*.pyc
+*.idea
+
+/backend/logs/
+*.log
+*.db
+/frontend/node_modules/
+*.md
